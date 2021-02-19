@@ -42,5 +42,5 @@
     ```
 
 * #### Django Db Superuser:
-    Username: admin
+    Username: admin \
     Password: password
