@@ -14,7 +14,7 @@
 * #### Dependencies
     1. Cd into your the cloned repo as such:
         ```bash
-            $ cd django-rest-api
+            $ cd k8s-django-rest-take-home
         ```
     2. Create and fire up your virtual environment:
         ```bash
