@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myapp1-ingress
+  annotations:
+    kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+  rules:
+  - host: canvasstest2.55fcd3d91f8b48feb77f.eastus.aksapp.io
+    http:
+      paths:
+      - path: /bucketlists
+        pathType: Prefix
+        backend:
+          service: 
+            name: myapp1-clusterip-service
+            port: 
+              number: 80
