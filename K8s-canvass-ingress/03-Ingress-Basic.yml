@@ -9,7 +9,7 @@ spec:
   - host: canvasstest2.55fcd3d91f8b48feb77f.eastus.aksapp.io
     http:
       paths:
-      - path: /bucketlists
+      - path: /
         pathType: Prefix
         backend:
           service: 
